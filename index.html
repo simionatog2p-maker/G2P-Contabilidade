@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>G2P Contabilidade</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:Montserrat,sans-serif;
+background:#f6f3ee;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+color:#124f87;
+
+}
+
+.container{
+
+width:90%;
+max-width:1200px;
+text-align:center;
+
+}
+
+.logo{
+
+width:500px;
+max-width:80%;
+margin:auto;
+display:block;
+
+}
+
+.contatos{
+
+margin-top30px;
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:50px;
+
+}
+
+.card{
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+}
+
+.card i{
+
+font-size:64px;
+margin-bottom:22px;
+color:#124f87;
+
+}
+
+.card a{
+
+font-size:28px;
+font-weight:600;
+text-decoration:none;
+color:#124f87;
+transition:.3s;
+
+}
+
+.card a:hover{
+
+opacity:.7;
+
+}
+
+@media(max-width:900px){
+
+.logo{
+
+width:320px;
+
+}
+
+.contatos{
+
+grid-template-columns:1fr;
+gap:55px;
+margin-top:40px;
+
+}
+
+.card i{
+
+font-size:56px;
+
+}
+
+.card a{
+
+font-size:22px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="logo.png" class="logo" alt="G2P Contabilidade">
+
+<div class="contatos">
+
+<div class="card">
+
+<i class="fa-regular fa-envelope"></i>
+
+<a href="mailto:contato@g2pcontabilidade.com.br">
+contato@g2pcontabilidade.com.br
+</a>
+
+</div>
+
+<div class="card">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+<a href="https://wa.me/5518996810297">
+(18) 99681-0297
+</a>
+
+</div>
+
+<div class="card">
+
+<i class="fa-brands fa-instagram"></i>
+
+<a href="https://instagram.com/g2p.contabilidade">
+@g2p.contabilidade
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
